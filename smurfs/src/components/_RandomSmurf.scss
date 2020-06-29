@@ -1,0 +1,39 @@
+.smurf {
+  position: absolute;
+  animation: Float 20s linear forwards infinite;
+
+  img {
+    max-width: 75px;
+    margin-left: 10px;
+  }
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.speech-bubble {
+  position: relative;
+  background: #fff;
+  border-radius: 0.4em;
+  text-align: center;
+  padding: 0.85em;
+  margin-bottom: 1.5em;
+  font-weight: bold;
+  box-shadow: 1px 1px 3px #652929;
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #fff;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -10px;
+  margin-bottom: -20px;
+}
