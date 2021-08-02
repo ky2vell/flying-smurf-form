@@ -1,0 +1,14 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+// UTILITIES, BUTTONS
+@import './utilities';
+@import './buttons';
+
+// Components
+@import '../components/Header';
+@import '../components/SmurfForm';
+@import '../components/RandomSmurf';
+
+// Keyframes
+@import './keyframes';

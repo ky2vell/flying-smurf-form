@@ -1,0 +1,9 @@
+@keyframes Float {
+  from {
+    transform: translateX(100vw) translateZ(0);
+  }
+
+  to {
+    transform: translateX(-100vw) translateZ(0);
+  }
+}
